@@ -1,0 +1,1 @@
+Performs colorization on grayscale images. Trained on CIFAR-10 upscaled to 128 x 128. Compares the performance of CGANs with conditional diffusion. Implements a new loss metric to penalise colour inaccuracy, also implements standard diffusion mse(pred_noise,actual_noise) in separate models. 
